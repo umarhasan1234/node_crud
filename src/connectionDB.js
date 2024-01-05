@@ -32,7 +32,9 @@ if (error) {
 console.log('Table created successfully');
 
 // Close the connection
+
 mysqlConnection.end();
+
 });
 
 
